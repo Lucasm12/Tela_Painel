@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from raqtest.com/projetospref/multasetaxas_layout_laravel/painel.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Feb 2021 13:49:03 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&amp;display=swap">
+	<link rel="stylesheet" type="text/css" href="modules/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="modules/css/bootstrap.custom0020.css?v=567284655">
+	<link rel="stylesheet" type="text/css" href="modules/css/appf3bd.css?v=5997126">
+	<link rel="stylesheet" type="text/css" href="modules/css/jquery.dataTables.min.css">
+</head>
+<body>
+
+<section class="main">
+	
+	<nav class="navbar navbar-default">
+	    <div class="container">
+	        <div class="navbar-header">
+	            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+	            <a class="navbar-brand" href="painel.html">
+	            	<img alt="Brand" src="modules/static/logo.png">
+	            	<div class="brand_title">Taxas e Multas</div>
+	            </a>
+	        </div>
+
+	        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+	            <ul class="nav navbar-nav">
+	                <li><a href="painel.html">Painel Inicial</a></li>
+	            </ul>
+
+	            <ul class="nav navbar-nav navbar-right">
+	                <li class="dropdown">
+	                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lucas Marques <span class="caret"></span></a>
+	                    <ul class="dropdown-menu">
+	                        <li><a href="#">Configurações</a></li>
+	                        <li><a href="">Relatórios</a></li>
+	                        <li><a href="#">Segurança</a></li>
+	                        <li role="separator" class="divider"></li>
+	                        <li><a href="#" class="danger">Sair do Sistema</a></li>
+	                    </ul>
+	                </li>
+	            </ul>
+	        </div>
+
+	    </div>
+	</nav>
+
+	<section class="header">
+		<div class="container">
+			<h1 class="title_x1 title_header"><a href="painel.html">Painel</a></h1>
+		</div>
+	</section>
+
+	<section class="wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="content_header">
+						<h2>Painel Inicial</h2>
+						<p>Serviços do Painel Inicial</p>
+					</div>
+					<div class="wrapper_buttons_list flex_wrap_jbtw">
+						<a class="button_item_x2 col_x2_3 flex_wrap_jcenter" href=""><i class="i_processos"></i>Processos</a>
+						<a class="button_item_x2 col_x2_3 flex_wrap_jcenter" href="#"><i class="i_os"></i>Ordem de Seviço</a>
+						<a class="button_item_x2 col_x2_3 flex_wrap_jcenter" href="#"><i class="i_notificacao"></i>Notificações</a>
+						<a class="button_item_x2 col_x2_3 flex_wrap_jcenter" href="#"><i class="i_infracao"></i>Infrações</a>
+						<a class="button_item_x2 col_x2_3 flex_wrap_jcenter" href="#"><i class="i_datm"></i>DATM</a>
+						<a class="button_item_x2 col_x2_3 flex_wrap_jcenter" href="#"><i class="i_termo"></i>Termo Final</a>
+						<span class="col_x2_3"></span>
+						<span class="col_x2_3"></span>
+						<span class="col_x2_3"></span>
+					</div>
+					<div class="content_header">
+						<h2>Relarórios</h2>
+						<p>Relatórios para Análise</p>
+					</div>
+					<div class="wrapper_buttons_list flex_wrap_jbtw">
+						<a class="button_item_x2 col_x2_3 flex_wrap_jcenter" href="#"><i class="i_processos"></i><span>Processos por SDU</span></a>
+						<a class="button_item_x2 col_x2_3 flex_wrap_jcenter" href="#"><i class="i_processos"></i><span>Relatorios Por Fiscais</span></a>
+						<a class="button_item_x2 col_x2_3 flex_wrap_jcenter" href="#"><i class="i_processos"></i><span>Ordem de Seviço por SDU</span></a>
+						<span class="col_x2_3"></span>
+						<span class="col_x2_3"></span>
+						<span class="col_x2_3"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</section>
+
+<script type="text/javascript" src="modules/js/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="modules/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="modules/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript">
+	$(document).ready( function () {
+	    $('#table_id').DataTable({
+	    	"oLanguage": {
+				  "sUrl": "modules/js/Portuguese-Brasil.json"
+				}
+		    }
+	    );
+	} );
+</script>
+</body>
+
+</html>
